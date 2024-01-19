@@ -1,0 +1,21 @@
+footer {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  background: #5D7FFA;
+}
+footer .social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+footer .social img {
+  width: 50px;
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=footer.css.map */

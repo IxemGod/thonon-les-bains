@@ -1,0 +1,87 @@
+html body .containerEspaceMembre {
+  display: flex;
+}
+html body .containerEspaceMembre .menuVertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #490097;
+  width: 300px;
+  bottom: 0px;
+}
+html body .containerEspaceMembre .menuVertical img {
+  margin-top: 50px;
+  width: 150px;
+  border-radius: 100%;
+}
+html body .containerEspaceMembre .menuVertical h2 {
+  text-align: center;
+  color: white;
+}
+html body .containerEspaceMembre .menuVertical .ListOnglet {
+  width: 100%;
+  margin-top: 20px;
+}
+html body .containerEspaceMembre .menuVertical .ListOnglet div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+html body .containerEspaceMembre .menuVertical .ListOnglet div a {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+html body .containerEspaceMembre .menuVertical .ListOnglet div .trait {
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  width: 0%;
+  height: 2px;
+}
+html body .containerEspaceMembre .menuVertical .ListOnglet div:hover .trait {
+  animation: traitHover 1s;
+}
+html body .containerEspaceMembre .menuVertical .ListOnglet a:hover {
+  text-decoration: none;
+}
+@keyframes traitHover {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+html body .containerEspaceMembre .InfoPerso {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+html body .containerEspaceMembre .InfoPerso .titreEspaceMembre {
+  text-align: center;
+}
+html body .containerEspaceMembre .InfoPerso .ListInfoPerso {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+html body .containerEspaceMembre .InfoPerso .ListInfoPerso .ItemInfoPerso {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  html body .containerEspaceMembre {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=espace-membre.css.map */

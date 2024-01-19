@@ -1,0 +1,58 @@
+body .TitleHome {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 850px) {
+  body .presentationHome {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+body .presentationHome {
+  background: #0CA7FF;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .presentationHome .presentationMaisonSportHome {
+  background: #FCBE1E;
+  width: 70%;
+  margin: 15px;
+}
+body .presentationHome .presentationMaisonSportHome h2 {
+  text-align: left;
+  margin-left: 2%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+body .presentationHome .presentationMaisonSportHome p {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 20px;
+}
+body .presentationHome .presentationMaisonSportHome h3 {
+  margin-left: 2%;
+}
+body .presentationHome .infoComplementaireHome {
+  background: white;
+  margin: 15px;
+}
+body .presentationHome .infoComplementaireHome h2 {
+  text-align: center;
+}
+body .presentationHome .infoComplementaireHome p {
+  margin-left: 15px;
+}
+body .presentationHome .infoComplementaireHome iframe {
+  margin: 10px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}/*# sourceMappingURL=index.css.map */

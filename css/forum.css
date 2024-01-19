@@ -1,0 +1,57 @@
+.postBody {
+  border-left: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.postBody .postList {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.postBody .postList .postPreview p {
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.postBody .visualisationPost {
+  border-bottom: 2px solid black;
+}
+.postBody .visualisationPost h2 {
+  margin-left: 10px;
+}
+.postBody .visualisationPost p {
+  margin-left: 10px;
+}
+.postBody .commentToPost .commentTitle {
+  margin-left: 10px;
+}
+.postBody .commentToPost .visualisationComment {
+  border-bottom: 1px solid grey;
+}
+
+.formNewPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formNewPost h1 {
+  margin-bottom: 50px;
+}
+.formNewPost form {
+  display: flex;
+  flex-direction: column;
+}
+.formNewPost form textarea {
+  width: 400px;
+  height: 400px;
+}
+.formNewPost form .btnPoster {
+  background: green;
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=forum.css.map */

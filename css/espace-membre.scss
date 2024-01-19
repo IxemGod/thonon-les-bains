@@ -1,0 +1,129 @@
+html{
+    body{
+        .containerEspaceMembre{
+            display: flex;
+            // flex-wrap: wrap;
+            // justify-content: space-between;
+
+        
+        .menuVertical{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background : #490097;
+            width:300px;
+            bottom:0px;
+
+
+            img{
+                margin-top:50px;
+                width:150px;
+                border-radius: 100%;
+
+            }
+
+            h2{
+                text-align: center;
+                color: white;
+
+            }
+
+            .ListOnglet{
+                width:100%;
+                margin-top:20px;
+                div{
+                    // border-bottom: 2px solid white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width:100%;
+
+                    a{
+                        color: white;
+                        font-size: 20px;
+                        text-align: center;
+                        padding:10px;
+                        width:100%;
+                        // margin-left:20%;
+                    }
+
+
+
+                    .trait{
+                        border-bottom: 2px solid white;
+                        display: flex;
+                        align-items: center;
+                        width:0%;
+                        height: 2px;
+                      
+                    }
+                    
+                }
+
+                div:hover .trait{
+                    animation: traitHover 1s;
+                }
+                
+                a:hover{
+                    text-decoration: none;
+                }
+
+                @keyframes traitHover {
+                    0%{
+                        width: 0%;
+                    }
+
+                    100%{
+                        width: 100%;
+                    }
+                    
+                }
+
+            }
+
+
+            }
+
+           
+
+        
+
+        .InfoPerso{
+            display: flex;
+            width:100%;
+            flex-direction: column;
+            justify-content: center;
+            margin-top:50px;
+            align-items: center;
+        
+            .titreEspaceMembre{
+                text-align: center;
+            }
+
+            .ListInfoPerso{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .ItemInfoPerso{
+                    display: flex;
+                    margin-bottom:20px;
+                    flex-direction: column;
+                }
+            }
+        }
+        }
+
+        @media (max-width: 500px)
+        {
+            .containerEspaceMembre{
+                display: flex;
+                flex-wrap: wrap;
+        }
+    }
+    }
+
+}

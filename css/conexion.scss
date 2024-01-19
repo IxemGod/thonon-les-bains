@@ -1,0 +1,41 @@
+body{
+    .FormulaireConexion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            margin-top: 150px;
+
+            label{
+                font-size: 25px;
+            }
+
+            input{
+                font-size: 25px;
+                margin-bottom: 25px;
+            }
+
+            .erreur{
+                color: red;
+            }
+
+            button{
+                width:40%;
+                align-self: end;
+                background: green;
+                color: white;
+                padding:10px;
+
+
+            }
+        }
+        .void{
+            height: 500px;
+        }
+    }
+}

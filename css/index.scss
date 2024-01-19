@@ -1,0 +1,72 @@
+body{
+    .TitleHome{
+        margin-top:30px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    @media (max-width: 850px)
+    {
+        .presentationHome{
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+    }
+
+    .presentationHome{
+        background:#0CA7FF;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .presentationMaisonSportHome{
+            background:#FCBE1E;
+            width: 70%;
+            margin:15px;
+
+            h2{
+                text-align: left;
+                margin-left:2%;
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            p{
+                margin-left:2%;
+                margin-right:2%;
+                font-size: 20px;
+            }
+            
+            h3{
+                margin-left:2%;
+            }
+        }
+
+        .infoComplementaireHome{
+            background: white;
+            margin:15px;
+
+            h2{
+                text-align: center;
+            }
+            
+            p{
+                margin-left: 15px;
+            }
+
+            iframe{
+                margin:10px;
+            }
+        }
+    }
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}

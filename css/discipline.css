@@ -1,0 +1,127 @@
+body .h1Disciplines {
+  margin-top: 40px;
+  text-align: center;
+}
+body .PresentaDiscipline .TitreEtText {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+body .PresentaDiscipline .TitreEtText .Titre h1 {
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+body .PresentaDiscipline .TitreEtText .text {
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 100px;
+  background-color: rgba(61, 167, 254, 0.815);
+}
+body .PresentaDiscipline .TitreEtText .text p {
+  padding: 20px;
+}
+body .PresentaDiscipline .tarif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .PresentaDiscipline .tarif h2 {
+  text-align: center;
+}
+body .PresentaDiscipline .tarif table {
+  border: 1px solid black;
+  width: 50%;
+}
+body .PresentaDiscipline .tarif table thead tr th {
+  border: 1px solid black;
+  padding: 10px;
+  background: rgba(164, 164, 164, 0.649);
+}
+body .PresentaDiscipline .tarif table tbody tr td {
+  border: 1px solid black;
+  padding: 10px;
+}
+body .PresentaDiscipline .tarif .Horaires {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: 50%;
+  justify-content: space-between;
+}
+body .PresentaDiscipline .tarif .Horaires button {
+  background: rgb(29, 156, 29);
+  border: 0px solid;
+  padding: 20px;
+  color: white;
+  border-radius: 9px;
+}
+body .PresentaDiscipline .Membres {
+  background: #FCBE1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+body .PresentaDiscipline .Membres h2 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+body .PresentaDiscipline .Membres .item img {
+  width: 200px;
+  background-size: cover;
+}
+body .PresentaDiscipline .Membres .item p {
+  text-align: center;
+  font-size: 25px;
+}
+body .PresentaDiscipline .Membres .listMembres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  width: 80%;
+  gap: 150px;
+}
+body .PresentaDiscipline .Membres .listMembres .item {
+  margin-top: -100px;
+}
+body .PresentaDiscipline .Membres .listMembres .item img {
+  width: 200px;
+  background-size: cover;
+}
+body .PresentaDiscipline .Membres .listMembres .item p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.ListeDiscipline {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.ListeDiscipline .item {
+  background-color: yellow;
+  width: 50%;
+  margin: 40px;
+}
+.ListeDiscipline .item h2 {
+  text-align: center;
+}
+.ListeDiscipline .item p {
+  margin-left: 15px;
+}
+.ListeDiscipline .item img {
+  width: 40%;
+  float: left;
+  margin-right: 15px;
+}/*# sourceMappingURL=discipline.css.map */
